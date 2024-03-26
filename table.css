@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.table{
+color: white;
+border: 1px solid #ddd;
+}
+
+thread tr{
+  max-height: 90%;
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 1px #888888;
+}
+tbody tr:nth-child(even) {
+    background-color: #ecf0f1;
+  }
+tbody tr:hover {
+    background-color: #bdc3c7;
+  }
+  tbody {
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 1px #888888;
+  }
+.pic img{
+  background-color: gray;
+  image-resolution: absolute;
+  border-radius: 5px;
+  padding: 0.1rem;
+}
+table,th,td {
+  padding: 1rem;
+  border-collapse: collapse;
+  color: black;
+}
+.STATUS{
+  border-radius: 5px;
+  color: white;
+  font-weight:bold;
+  font-size: 15px;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.STATUS.orangered {
+  background-color: orangered;
+  width: 90%;
+  text-align: center;
+} 
+.STATUS.green {
+  background-color: green;
+  width: 90%;
+  text-align: center;
+}
+.STATUS.blue {
+  background-color: blue;
+  width: 90%;
+  text-align: center;
+}
+.STATUS.blue{
+  background-color: blue;
+  width: 90%;
+  text-align: center;
+}
+.STATUS.green{
+  background-color: green;
+  width: 90%;
+  text-align: center;
+} 
+.clr{
+  color: blue;
+}
+.clr .inv1{
+  color: blue;
+}
+.clr .inv2{
+  color: blue;
+}
+.clr .inv3{
+  color: blue;
+}
+.clr.inv4{
+  color: blue;
+}
